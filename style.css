@@ -458,7 +458,7 @@ footer {
 }
 .areaLeft .contato {
     font-size: 20px;
-    line-height: 15px;
+    line-height: 25px;
     margin-bottom: 5px;
 }
 .areaLeft .contato h2 {
@@ -627,3 +627,29 @@ footer {
     }
 }
 
+@media (min-width: 320px) and (max-width: 425px){
+ 
+    .area-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .areaLeft{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .areaLeft .contato {
+        line-height: 25px;
+    }
+    .areaRight {
+        width: 100%;
+    }
+    .redesociais {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
